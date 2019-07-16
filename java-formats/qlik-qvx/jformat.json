@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "label": "Qlik QVX"
+    },
+    "canBeDatasetFormat": false,
+    "canRead": false,
+    "canWrite": true,
+    "canExtractSchema": false,
+    "formatClass": "com.dataiku.dss.formats.qvx.QvxFormat",
+    "params": [
+    ],
+    "exportOptions": [
+        {
+            "label": "Qlik (*.qvx)",
+            "canStream": true,
+            "compression": "NONE"
+        }
+    ],
+    "mime": {
+        "mimeType": "application/octet-stream",
+        "extension": ".qvx"
+    }
+}

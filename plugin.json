@@ -1,0 +1,13 @@
+{
+    "id": "qlik-qvx",
+    "version": "0.0.1",
+    "meta": {
+        "label": "Qlik QVX file format",
+        "description": "Export datasets to Qlik QVX format.",
+        "author": "Dataiku (Joachim ZENTICI)",
+        "icon": "icon-bar-chart",
+        "tags": ["Visualization", "Format"],
+        "url": "https://www.dataiku.com/community/plugins/info/qlik-qvx.html",
+        "licenseInfo": "Apache Software License"
+    }
+}
