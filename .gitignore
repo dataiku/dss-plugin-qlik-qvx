@@ -1,1 +1,4 @@
 .idea
+dist/
+java-build/
+lib/
