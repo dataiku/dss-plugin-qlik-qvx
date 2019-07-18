@@ -29,7 +29,6 @@ public class QvxHeaderWriter {
                 "<QvxTableHeader>\n" +
                 "\t<MajorVersion>1</MajorVersion>\n" +
                 "\t<MinorVersion>0</MinorVersion>\n" +
-                "\t<CreateUtcTime>2019-03-25 10:12:52</CreateUtcTime>\n" +
                 "\t<TableName>Dataset</TableName>\n" +
                 "\t<UsesSeparatorByte>0</UsesSeparatorByte>\n" +
                 "\t<BlockSize>0</BlockSize>\n" +
@@ -51,7 +50,7 @@ public class QvxHeaderWriter {
     private class QvxField {
         String name;
         QvxFieldType type;
-        int byteWidth = -1;
+        int byteWidth;
         boolean isDate;
 
         QvxField(String name, QvxFieldType type, int byteWidth) {
