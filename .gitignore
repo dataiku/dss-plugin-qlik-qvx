@@ -1,4 +1,4 @@
 .idea
 dist/
 java-build/
-lib/
+java-lib/

@@ -1,6 +1,6 @@
 <project name="qvx-format" default="jar">
     <property name="build.dir" value="java-build" />
-    <property name="dist.dir" value="lib" />
+    <property name="dist.dir" value="java-lib" />
     <property environment="env"/>
 
     <target name="clean">
