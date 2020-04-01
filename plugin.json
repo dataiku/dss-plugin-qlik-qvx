@@ -8,7 +8,7 @@
         "icon": "icon-bar-chart",
         "tags": ["Visualization", "Format"],
         "supportLevel": "TIER2_SUPPORT",
-        "url": "https://www.dataiku.com/community/plugins/info/qlik-qvx.html",
+        "url": "https://www.dataiku.com/product/plugins/qlik-qvx-file-format/",
         "licenseInfo": "Apache Software License"
     }
 }
